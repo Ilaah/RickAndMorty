@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from 'react'
-import axios from 'axios'
+import React, { useState } from 'react'
 import LocationInfo from './components/LocationInfo'
 import CardCharacter from './components/CardCharacter'
 import useLocationApi from './hooks/useLocationApi'
-import InputSearch from './components/InputSearch'
 import Header from './components/Header'
 
 const RickAndMortyApp = () => {
